@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Formular</title>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="logo">
+            <img src="header_logo.jpg" alt="obr1">
+        </div>
+
+        <div class="info">
+
+            <p>Zverimex Ostrava </p>
+
+            <ul>
+                <li><i class="bi bi-pin-map"></i>&nbsp;Adresa</li>
+                <li><i class="bi bi-telephone"></i>&nbsp;Telefonní kontakt</li>
+                <li><i class="bi bi-envelope"></i>&nbsp;Emailový kontakt</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="menu1">
+
+
+
+        <ul>
+            <li><a href="index.html">Úvod</a></li>
+            <li><a href="nase_nabidka.html">Naše nabídka</a></li>
+            <li><a href="cenik.html">Ceník</a></li>
+            <li><a href="formular.html">Kontaktní formulár</a></li>
+            <li><a href="#">Objednávka</a></li>
+        </ul>
+
+
+
+
+
+    </div>
+
+    <div class="main">
+        <br /><br /><br />
+        <form class="my-form"  method="GET" action="submit.php"  target="_self" style="justify-content: center; align-items: center;">
+            <fieldset id="aye">
+              <legend id="titl">  <h2>Kontaktujte nás!::</h2> </legend>
+               <label for="text">Name:</label><br>
+               <input type="text" id="text" placeholder="Name" name="text"><br>
+               <label for="password">Email:</label><br>
+               <input type="email" id="email" placeholder= "Email" name="email"><br>
+               <label for="number">Phone Number:</label><br>
+               <input type="number" id="number" placeholder= "number" name="number"><br>
+               <label for="gender">Contact me by: </label><br>
+               <input type="radio" id="male" name="gender" value="male">
+               <label for="male">Phone</label><br>
+               <input type="radio" id="female" name="gender" value="female">
+               <label for="female">Email</label><br>
+               <br>
+               <label for="cars">Question for:</label><br>
+               <select id="cars">
+                  <option value="volvo">Sales</option>
+                  <option value="saab">Customer support</option>
+                  <option value="mercedes">FAQ_REDIRECT</option>
+               </select> <br><br>
+               <label for="text">Text:</label><br>
+               <textarea id="text" name="text"></textarea>
+               <input type="submit" value="Submit"><br><br>
+            </fieldset>
+            </form>
+
+
+    </div>
+
+    <div class="footer">
+
+        <div class="info2">
+            <p>© 2022 Přemysl Dýmal</p>
+        </div>
+
+        <div class="media">
+            <audio src="music.mp3" controls="controls">
+                Váš prohlížeč nepodporuje přehrávání zvukových souborů.
+            </audio>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
